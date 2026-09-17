@@ -1,0 +1,172 @@
+html, body {
+    width: 100%;
+    height: 200%;
+    margin: 0;
+}
+
+body {
+    position: relative;
+    background: #f4e9cc;
+}
+
+body::before {
+    content: "";
+    border-radius: 10px;
+    position: absolute;
+    inset: 20px;
+    background: #fffcf7;
+}
+
+.main_content {
+    font-family:'Times New Roman', Times, serif;
+    color: #000000;
+}
+
+#site_title_text {
+    position: absolute;
+    left: 35%;
+    top: 1%;
+    font-size: 50px;
+}
+#site_subtitle_text{
+    position: absolute;
+    left: 41%;
+    top: 4%;
+    font-size: 20px;
+}
+
+.mbti_test_content{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #212121;
+}
+
+.mbti_test_content1 {
+    position: absolute;
+    left: 20%;
+    top: 8%;
+    font-size: 15px;
+}
+
+#test_1_text {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.mbti_test_content2 {
+    position: absolute;
+    left: 20%;
+    top: 12%;
+    font-size: 15px;
+}
+
+#test_2_text {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.mbti_test_content3 {
+    position: absolute;
+    left: 20%;
+    top: 16%;
+    font-size: 15px;
+}
+
+#test_3_text {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.mbti_test_content4 {
+    position: absolute;
+    left: 20%;
+    top: 20%;
+    font-size: 15px;
+}
+
+#test_4_text {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.mbti_test_content5 {
+    position: absolute;
+    left: 20%;
+    top: 24%;
+    font-size: 15px;
+}
+
+#test_5_text {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.mbti_test_content6 {
+    position: absolute;
+    left: 20%;
+    top: 28%;
+    font-size: 15px;
+}
+
+#test_6_text {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.mbti_test_content7 {
+    position: absolute;
+    left: 20%;
+    top: 32%;
+    font-size: 15px;
+}
+
+#test_7_text {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.mbti_test_content8 {
+    position: absolute;
+    left: 20%;
+    top: 36%;
+    font-size: 15px;
+}
+
+#test_8_text {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.mbti_test_content9 {
+    position: absolute;
+    left: 20%;
+    top: 40%;
+    font-size: 15px;
+}
+
+#test_9_text {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.mbti_test_content10 {
+    position: absolute;
+    left: 20%;
+    top: 44%;
+    font-size: 15px;
+}
+
+#test_10_text {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#view_result {
+    position: absolute;
+    left: 46%;
+    top: 50%;
+    width: 125px;
+    height: 45px;
+    border-color: #000000;
+    border-radius: 4px;
+    background-color: #fffcf7;
+}
